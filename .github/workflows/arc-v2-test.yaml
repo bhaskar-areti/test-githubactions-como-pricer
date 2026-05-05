@@ -6,6 +6,6 @@ on:
 
 jobs:
   test:
-    runs-on: [self-hosted, v2-deploy-test]
+    runs-on: v2-deploy-test
     steps:
       - run: echo "Running on ARC v2"
