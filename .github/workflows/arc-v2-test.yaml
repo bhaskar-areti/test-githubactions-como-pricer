@@ -1,11 +1,11 @@
 
-name: ARC v1 Test
+# name: ARC v1 Test
 
-on:
-  workflow_dispatch:
+# on:
+#   workflow_dispatch:
 
-jobs:
-  test:
-    runs-on: v2-deploy-test
-    steps:
-      - run: echo "Running on ARC v1"
+# jobs:
+#   test:
+#     runs-on: v2-deploy-test
+#     steps:
+#       - run: echo "Running on ARC v1"
