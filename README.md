@@ -51,6 +51,18 @@ Commit to istio-helm-migration(Ex: K8s-deployemnts) repo
 Flux reconciliation
         ↓
 Kubernetes cluster (gha-test namespace)
+###
+GitHub Actions
+   ↓
+Updates apps/nginx-test/deployment.yaml
+   ↓
+Git push
+   ↓
+Flux sees change
+   ↓
+Cluster Kustomization exists ✅
+   ↓
+Deployment applied
 
 GitHub Actions decides when and what to deploy
 Flux decides how and where to deploy
