@@ -1,11 +1,11 @@
 
-name: ARC v2 Test
+name: ARC v1 Test
 
 on:
   workflow_dispatch:
 
 jobs:
   test:
-    runs-on: v2-deploy-test
+    runs-on: [self-hosted, legacy-runner]
     steps:
-      - run: echo "Running on ARC v2"
+      - run: echo "Running on ARC v1"

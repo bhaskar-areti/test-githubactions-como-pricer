@@ -7,7 +7,7 @@ on:
 
 jobs:
   deploy:
-    runs-on: v2-deploy-test
+    runs-on: [self-hosted, legacy-runner]
 
     steps:
       - name: Checkout test-githubactions-como-pricer repo
