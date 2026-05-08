@@ -1,17 +1,17 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: nginx-test06-may-26
+  name: nginx-test07-may-26-v2
   namespace: gha-test
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: nginx-test06-may-26
+      app: nginx-test07-may-26-v2
   template:
     metadata:
       labels:
-        app: nginx-test06-may-26
+        app: nginx-test07-may-26-v2
     spec:
       containers:
         - name: nginx
